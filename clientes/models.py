@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django import forms
-
+from ckeditor.fields import RichTextField
 
 
 class PessoaTipo(models.TextChoices):
@@ -14,7 +14,7 @@ class Clientes(models.Model):
 	documento = models.CharField('Nº do documento',max_length=20,null=True,blank=True)
 	telefone = models.CharField('Telefone',max_length=20,null=True,blank=True)
 	email = models.EmailField('Email',max_length=254,null=True,blank=True)
-	endereco = models.TextField('Endereço',null=True,blank=True)
+	endereco = RichTextField('Endereço completo',blank=True,null=True)
 	criado = models.DateTimeField(auto_now_add=True,editable=False,null=True)
 	atualizado = models.DateTimeField(auto_now=True)
 

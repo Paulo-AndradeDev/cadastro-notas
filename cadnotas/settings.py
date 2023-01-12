@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
+
+from .jazzmin import JAZZMIN_SETTINGS
 import os
 from pathlib import Path
 
@@ -31,6 +33,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    # Jazzmin template
+    'jazzmin',
+
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -41,6 +47,9 @@ INSTALLED_APPS = [
     # My Apps
     "clientes.apps.ClientesConfig",
     "notas.apps.NotasConfig",
+
+    # Rich Text Field Editor
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +138,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+JAZZMIN_SETTINGS = JAZZMIN_SETTINGS
