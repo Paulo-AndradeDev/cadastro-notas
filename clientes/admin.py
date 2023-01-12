@@ -29,6 +29,9 @@ class ExportCsvMixin:
 @admin.register(Clientes)
 class ClientesAdmin(admin.ModelAdmin,ExportCsvMixin):
     list_display = ("nome","tipo","documento","telefone","email","criado")
+    search_fields = ("nome","documento","email","telefone",)
     list_filter = ("nome", "tipo",)
+    ordering = ("nome","criado")
+    list_per_page = 30
 
     actions = ["export_as_csv"]

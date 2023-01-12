@@ -29,6 +29,9 @@ class NotasAdmin(admin.ModelAdmin,ExportCsvMixin):
     date_hierarchy = 'data'
     list_display = ("cliente","nota","lancado","data")
     list_filter = ("cliente", "nota", "lancado", "data")
+    search_fields = ("cliente","nota","data")
+    raw_id_fields = ("cliente",)
+    ordering = ("data","nota","cliente",)
 
 
 
