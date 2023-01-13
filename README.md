@@ -8,27 +8,13 @@
 
 2. Faça o download ou clone do projeto aqui no github
 
-3. utilize o terminal cmd no windows ou o terminal de alguma IDE, preferencialmente o PyCharm community 
-
-   > https://www.jetbrains.com/pycharm/download/
+3. utilize o terminal cmd no windows ou o terminal de alguma IDE.
 
 4. Ative o ambiente virtual "myenv" no diretório raiz (um nível acima dos arquivos do projeto)
          
       > myenv\Scripts\activate
 
-5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
-
-      > python -m pip install Django
-   
-
-5. Com ou sem o ambiente virtual ativado, no terminal, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
-  
-      >  pip install -U -r requirements.txt
-  
-  * Isto irá instalar todos os pacotes
-  
-  
-6. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
+5. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
 
       > python manage.py runserver
    
