@@ -24,14 +24,14 @@
       > python -m pip install Django
    
 
-5. Com ou sem o ambiente virtual ativado, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
+5. Com ou sem o ambiente virtual ativado, no terminal, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
   
       >  pip install -U -r requirements.txt
   
   * Isto irá instalar todos os pacotes
   
   
-6. vá até a pasta em que se encontra o arquivo manage.py e rode o seguinte comando:
+6. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
 
       > python manage.py runserver
    
