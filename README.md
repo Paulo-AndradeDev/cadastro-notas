@@ -49,6 +49,7 @@ Entretanto, o robô está configurado com os arquivos do projeto em C:/cad-notas
 
 Para criar um executável:
    > pip install pyinstaller
+   
    > pyinstaller --onfile --noconsole cadnotas.py
    
    
