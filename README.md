@@ -28,5 +28,16 @@
 8. Utilize login 'admin' e senha tb 'admin'
 
 
+ ## Pacotes utilizados:
+ 
+ Django CKEditor
+   > https://django-ckeditor.readthedocs.io/en/latest/
+ 
+ Jazzmin
+   >https://django-jazzmin.readthedocs.io/
+   
+ 
+   
+   
  
 
