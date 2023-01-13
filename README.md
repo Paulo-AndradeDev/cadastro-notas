@@ -2,7 +2,7 @@
 
 ## Como rodar em localhost:
 
-1. Instale o Python 3.7 ou superior. Se assegure de instalar tb o PIP em sua máquina
+1. Instale o Python 3.7 ou superior. 
 
    > https://www.python.org/downloads/
 
