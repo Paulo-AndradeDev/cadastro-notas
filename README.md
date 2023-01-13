@@ -21,19 +21,19 @@
 
 5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
 
-   > python -m pip install Django
+      > python -m pip install Django
    
 
 5. Com ou sem o ambiente virtual ativado, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
   
-  >  pip install -U -r requirements.txt
+      >  pip install -U -r requirements.txt
   
   * Isto irá instalar todos os pacotes
   
   
 6. vá até a pasta em que se encontra o arquivo manage.py e rode o seguinte comando:
 
-   > python manage.py runserver
+      > python manage.py runserver
    
    
 7. Acesse o endereço http://127.0.0.1:8000/admin em seu browser
