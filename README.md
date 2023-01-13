@@ -9,15 +9,19 @@
 3. utilize o terminal cmd no windows ou o terminal de alguma IDE, preferencialmente o PyCharm community 
 
 4. Preferencialmente, crie um ambiente virtual no diretório raiz (um nível acima dos arquivos do projeto)
+   
+   Ex.: 
+      > python -m venv myenv
+      > myenv\Scripts\activate
 
 5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
 
    python -m pip install Django
    
 
-5. Com ou sem o ambiente virtual ativado, vá até a pasta em que se encontra o arquivo requirementes.txt e rode o seguinte comando:
+5. Com ou sem o ambiente virtual ativado, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
   
-   pip install -U -r requirementes.txt
+   pip install -U -r requirements.txt
   
   * Isto irá instalar todos os pacotes
   
