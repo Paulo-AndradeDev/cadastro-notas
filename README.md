@@ -21,7 +21,7 @@
 
 5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
 
-   python -m pip install Django
+   > python -m pip install Django
    
 
 5. Com ou sem o ambiente virtual ativado, vá até a pasta em que se encontra o arquivo requirements.txt e rode o seguinte comando:
