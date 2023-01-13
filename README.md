@@ -12,11 +12,8 @@
 
    > https://www.jetbrains.com/pycharm/download/
 
-4. Preferencialmente, crie um ambiente virtual no diretório raiz (um nível acima dos arquivos do projeto)
-   
-   Ex.: 
-      > python -m venv myenv
-      
+4. Ative o ambiente virtual "myenv" no diretório raiz (um nível acima dos arquivos do projeto)
+         
       > myenv\Scripts\activate
 
 5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
