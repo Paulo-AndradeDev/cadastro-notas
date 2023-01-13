@@ -12,6 +12,7 @@
    
    Ex.: 
       > python -m venv myenv
+      
       > myenv\Scripts\activate
 
 5. Com ou sem o ambiente virtual ativado, instale o Django com o seguinte comando: 
