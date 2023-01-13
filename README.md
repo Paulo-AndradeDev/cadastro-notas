@@ -35,8 +35,21 @@
  
  Jazzmin
    >https://django-jazzmin.readthedocs.io/
-   
+  
+  
+# Sobre o Robô
+
+o diretório "dist" contém o arquivo executável de um robô que roda a aplicação em um servidor local. 
+
+Esse robô executa a aplicação depois de instalada. Ou seja, na primeira execução é preciso seguir os passo acima até o item 5, pois somente depois de instalados os requerimentos o robô funcionará. 
+
+O código do robô está no arquivo cadnotas.py.
  
+Entretanto, o robô está configurado com os arquivos do projeto em C:/cad-notas. Se o seu caminho for difenrente, altere a linha 10 do arquivo cadnotas.py e crie outro executável. 
+
+Para criar um executável:
+   > pip install pyinstaller
+   > pyinstaller --onfile --noconsole cadnotas.py
    
    
  
