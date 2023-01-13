@@ -13,6 +13,10 @@
 4. Ative o ambiente virtual "myenv" no diretório raiz (um nível acima dos arquivos do projeto)
          
       > myenv\Scripts\activate
+      
+5. Instale os pacote com o comendo:
+
+      > pip install -r requirements.txt
 
 5. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
 
