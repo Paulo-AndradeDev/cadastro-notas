@@ -8,6 +8,7 @@ class Notas(models.Model):
 	nota = models.CharField('Número',max_length=22,null=True)
 	lancado = models.BooleanField('Emitida?',default=False,null=False)
 	data = models.DateField('Data de Emissão',null=True)
+	valor = models.DecimalField(max_digits=9, decimal_places=2,null=True)
 	criado = models.DateTimeField(auto_now_add=True,editable=False)
 	atualizado = models.DateTimeField(auto_now=True)
 
