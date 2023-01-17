@@ -54,8 +54,8 @@
           #  Jazzmin template
           'jazzmin',
           "django.contrib.admin",
-   ...
-  
+         ...
+ ```  
   
   ### Para o tema Material Admin:
     
@@ -69,7 +69,8 @@
           # Jazzmin template
           #'jazzmin',
           #"django.contrib.admin",
-   ...
+         ...
+    ```
   
   
 # Sobre o Robô
