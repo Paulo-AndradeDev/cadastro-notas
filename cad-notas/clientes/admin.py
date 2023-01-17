@@ -33,6 +33,8 @@ class ExportCsvMixin:
 
 @admin.register(Clientes)
 class ClientesAdmin(admin.ModelAdmin,ExportCsvMixin):
+    icon_name = 'people'
+    
     list_display = ("nome","tipo","documento","telefone","email","criado")
     search_fields = ("nome","documento","email","telefone",)
     list_filter = ("nome", "tipo",)

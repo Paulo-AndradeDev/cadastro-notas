@@ -26,6 +26,8 @@ class ExportCsvMixin:
 
 @admin.register(Notas)
 class NotasAdmin(admin.ModelAdmin,ExportCsvMixin):
+    icon_name = 'format_list_numbered'
+
     date_hierarchy = 'data'
     list_display = ("cliente","nota","lancado","data")
     list_filter = ("cliente", "nota", "lancado", "data")

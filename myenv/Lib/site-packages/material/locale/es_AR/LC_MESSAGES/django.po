@@ -1,0 +1,772 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR t2015maistrenko@gmail.com, YEAR.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 07:46-0400\n"
+"PO-Revision-Date: 2020-05-10 07:49-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es-AR <LL@li.org>\n"
+"Language: es-AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/400.html:4 templates/403.html:4 templates/403.html:28
+#: templates/404.html:4 templates/404.html:28 templates/500.html:4
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: templates/400.html:28
+msgid "Bad request"
+msgstr "Solicitud inválida"
+
+#: templates/403.html:29
+msgid "You have no permissions to do this action."
+msgstr "No tiene permisos para realizar esta acción."
+
+#: templates/404.html:29
+msgid "We're sorry, but the requested page could not be found."
+msgstr "Lo sentimos, pero no se pudo encontrar la página solicitada."
+
+#: templates/500.html:28
+msgid "Server error"
+msgstr "Error del servidor"
+
+#: templates/500.html:29
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Ha habido un error. Se ha informado a los administradores del sitio por "
+"correo electrónico y debe solucionarse en breve. Gracias por su paciencia."
+
+#: templates/admin/actions.html:30
+msgid "Click here to select the objects across all pages"
+msgstr "Haga clic aquí para seleccionar los objetos en todas las páginas"
+
+#: templates/admin/actions.html:30
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Seleccionar todo %(total_count)s %(module_name)s"
+
+#: templates/admin/actions.html:32
+msgid "Clear selection"
+msgstr "Limpiar selección"
+
+#: templates/admin/actions.html:39
+msgid "Run the selected action"
+msgstr "Ejecuta la acción seleccionada"
+
+#: templates/admin/actions.html:39
+msgid "Go"
+msgstr "Ir"
+
+#: templates/admin/add_form.html:9
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+"Primero, ingrese un nombre de usuario y contraseña. Luego, podrá editar más "
+"opciones de usuario."
+
+#: templates/admin/add_form.html:11
+msgid "Enter a username and password."
+msgstr "Introduzca un nombre de usuario y contraseña."
+
+#: templates/admin/additional_submit_line.html:9
+#: templates/admin/submit_line.html:13
+msgid "Save as new"
+msgstr "Guardar como nuevo"
+
+#: templates/admin/additional_submit_line.html:17
+#: templates/admin/submit_line.html:29
+msgid "Save and add another"
+msgstr "Guardar y agregar otro"
+
+#: templates/admin/additional_submit_line.html:25
+#: templates/admin/submit_line.html:42
+msgid "Save and continue editing"
+msgstr "Guardar y continuar editando"
+
+#: templates/admin/additional_submit_line.html:25
+#: templates/admin/submit_line.html:42
+msgid "Save and view"
+msgstr "Guardar y nuevo"
+
+#: templates/admin/additional_submit_line.html:36
+#: templates/admin/submit_line.html:49 templates/admin/submit_line.html:51
+#: templates/admin/submit_line.html:60
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/admin/additional_submit_line.html:41
+#: templates/admin/pagination.html:16 templates/admin/submit_line.html:21
+#: templates/admin/submit_line.html:73
+#: templates/material/admin/theme_change.html:39
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/admin/additional_submit_line.html:48
+#: templates/admin/edit_inline/stacked.html:59
+#: templates/admin/submit_line.html:62 templates/admin/submit_line.html:81
+#: templates/admin/widgets/related_widget_wrapper.html:26
+msgid "Delete"
+msgstr "Eliminar"
+
+#: templates/admin/additional_submit_line.html:52
+#: templates/admin/change_form.html:68 templates/material/admin/side_nav.html:5
+msgid "Minimize"
+msgstr "Minimizar"
+
+#: templates/admin/base.html:61 templates/material/admin/index.html:12
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/admin/base_site.html:67
+msgid "View site"
+msgstr "Ver sitio"
+
+#: templates/admin/base_site.html:70
+msgid "Themes"
+msgstr "Temas"
+
+#: templates/admin/base_site.html:75
+msgid "Documentation"
+msgstr "Documentación"
+
+#: templates/admin/base_site.html:80
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: templates/admin/base_site.html:84
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: templates/admin/base_site.html:109 templates/admin/base_site.html:174
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/admin/base_site.html:110 templates/admin/base_site.html:175
+msgid "Clear"
+msgstr "Limpiar"
+
+#: templates/admin/base_site.html:111 templates/admin/base_site.html:176
+msgid "Ok"
+msgstr "Aceptar"
+
+#: templates/admin/base_site.html:113
+msgid "January"
+msgstr "enero"
+
+#: templates/admin/base_site.html:114
+msgid "February"
+msgstr "febrero"
+
+#: templates/admin/base_site.html:115
+msgid "March"
+msgstr "marzo"
+
+#: templates/admin/base_site.html:116
+msgid "April"
+msgstr "abril"
+
+#: templates/admin/base_site.html:117 templates/admin/base_site.html:131
+msgid "May"
+msgstr "Mayo"
+
+#: templates/admin/base_site.html:118
+msgid "June"
+msgstr "junio"
+
+#: templates/admin/base_site.html:119
+msgid "July"
+msgstr "julio"
+
+#: templates/admin/base_site.html:120
+msgid "August"
+msgstr "agosto"
+
+#: templates/admin/base_site.html:121
+msgid "September"
+msgstr "septiembre"
+
+#: templates/admin/base_site.html:122
+msgid "October"
+msgstr "octubre"
+
+#: templates/admin/base_site.html:123
+msgid "November"
+msgstr "noviembre"
+
+#: templates/admin/base_site.html:124
+msgid "December"
+msgstr "diciembre"
+
+#: templates/admin/base_site.html:127
+msgid "Jan"
+msgstr "ene"
+
+#: templates/admin/base_site.html:128
+msgid "Feb"
+msgstr "feb"
+
+#: templates/admin/base_site.html:129
+msgid "Mar"
+msgstr "mar"
+
+#: templates/admin/base_site.html:130
+msgid "Apr"
+msgstr "br"
+
+#: templates/admin/base_site.html:132
+msgid "Jun"
+msgstr "jun"
+
+#: templates/admin/base_site.html:133
+msgid "Jul"
+msgstr "jul"
+
+#: templates/admin/base_site.html:134
+msgid "Aug"
+msgstr "ago"
+
+#: templates/admin/base_site.html:135
+msgid "Sep"
+msgstr "sep"
+
+#: templates/admin/base_site.html:136
+msgid "Oct"
+msgstr "oct"
+
+#: templates/admin/base_site.html:137
+msgid "Nov"
+msgstr "nov"
+
+#: templates/admin/base_site.html:138
+msgid "Dec"
+msgstr "dic"
+
+#: templates/admin/base_site.html:141
+msgid "Sunday"
+msgstr "domingo"
+
+#: templates/admin/base_site.html:142
+msgid "Monday"
+msgstr "lunes"
+
+#: templates/admin/base_site.html:143
+msgid "Tuesday"
+msgstr "martes"
+
+#: templates/admin/base_site.html:144
+msgid "Wednesday"
+msgstr "miércoles"
+
+#: templates/admin/base_site.html:145
+msgid "Thursday"
+msgstr "jueves"
+
+#: templates/admin/base_site.html:146
+msgid "Friday"
+msgstr "viernes"
+
+#: templates/admin/base_site.html:147
+msgid "Saturday"
+msgstr "sábado"
+
+#: templates/admin/base_site.html:150
+msgid "Sun"
+msgstr "dom"
+
+#: templates/admin/base_site.html:151
+msgid "Mon"
+msgstr "lun"
+
+#: templates/admin/base_site.html:152
+msgid "Tue"
+msgstr "mar"
+
+#: templates/admin/base_site.html:153
+msgid "Wed"
+msgstr "mié"
+
+#: templates/admin/base_site.html:154
+msgid "Thu"
+msgstr "jue"
+
+#: templates/admin/base_site.html:155
+msgid "Fri"
+msgstr "vie"
+
+#: templates/admin/base_site.html:156
+msgid "Sat"
+msgstr "sáb"
+
+#: templates/admin/base_site.html:159
+msgid "Su"
+msgstr "do"
+
+#: templates/admin/base_site.html:160
+msgid "Mo"
+msgstr "lu"
+
+#: templates/admin/base_site.html:161
+msgid "Tu"
+msgstr "ma"
+
+#: templates/admin/base_site.html:162
+msgid "We"
+msgstr "mi"
+
+#: templates/admin/base_site.html:163
+msgid "Th"
+msgstr "ju"
+
+#: templates/admin/base_site.html:164
+msgid "Fr"
+msgstr "vi"
+
+#: templates/admin/base_site.html:165
+msgid "Sa"
+msgstr "sá"
+
+#: templates/admin/change_form.html:27 templates/admin/change_list.html:30
+#: templates/material/admin/login.html:31
+#: templates/material/admin/password_change.html:16
+#: templates/material/admin/theme_change.html:21
+msgid "Please correct the error below."
+msgstr "Por favor, corrija el error a continuación."
+
+#: templates/admin/change_form.html:27 templates/admin/change_list.html:30
+#: templates/material/admin/login.html:33
+#: templates/material/admin/password_change.html:18
+#: templates/material/admin/theme_change.html:23
+msgid "Please correct the errors below."
+msgstr "Por favor, corrija los errores a continuación."
+
+#: templates/admin/change_form.html:71
+msgid "Tools"
+msgstr "Herramientas"
+
+#: templates/admin/change_form_object_tools.html:7
+msgid "History"
+msgstr "Historial"
+
+#: templates/admin/change_form_object_tools.html:14
+#: templates/admin/edit_inline/stacked.html:38
+#: templates/admin/edit_inline/tabular.html:56
+msgid "View on site"
+msgstr "Ver en el sitio"
+
+#: templates/admin/change_list.html:61
+msgid "Filter"
+msgstr "Filtrar"
+
+#: templates/admin/change_list_results.html:18
+msgid "Remove from sorting"
+msgstr "Eliminar de la ordenamiento"
+
+#: templates/admin/change_list_results.html:19
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Prioridad de ordenamiento: %(priority_number)s"
+
+#: templates/admin/change_list_results.html:20
+msgid "Toggle sorting"
+msgstr "Conmutar ordenación"
+
+#: templates/admin/delete_confirmation.html:12
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"Eliminar a %(object_name)s '%(escaped_object)s' daría como resultado la "
+"eliminación de objetos relacionados, pero su cuenta no tiene permiso para "
+"eliminar los siguientes tipos de objetos:"
+
+#: templates/admin/delete_confirmation.html:21
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+"Eliminar a %(object_name)s '%(escaped_object)s' requeriría eliminar los "
+"siguientes objetos relacionados protegidos:"
+
+#: templates/admin/delete_confirmation.html:30
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+"¿Está seguro de que desea eliminar a %(object_name)s \"%(escaped_object)s\"? "
+"Se eliminarán todos los siguientes elementos relacionados:"
+
+#: templates/admin/delete_confirmation.html:33
+#: templates/admin/delete_selected_confirmation.html:27
+msgid "Objects"
+msgstr "Objetos"
+
+#: templates/admin/delete_confirmation.html:41
+#: templates/admin/delete_selected_confirmation.html:39
+msgid "Yes, I'm sure"
+msgstr "¡Sí, estoy seguro!"
+
+#: templates/admin/delete_confirmation.html:45
+#: templates/admin/delete_selected_confirmation.html:43
+msgid "No, take me back"
+msgstr "No, llévame a la pantalla anterior"
+
+#: templates/admin/delete_selected_confirmation.html:11
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"Eliminar el %(objects_name)s seleccionado daría como resultado la "
+"eliminación de objetos relacionados, pero su cuenta no tiene permiso para "
+"eliminar los siguientes tipos de objetos:"
+
+#: templates/admin/delete_selected_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+"Eliminar el %(objects_name)s seleccionado requeriría eliminar los siguientes "
+"objetos relacionados protegidos:"
+
+#: templates/admin/delete_selected_confirmation.html:25
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"¿Está seguro de que desea eliminar el %(objects_name)s seleccionado? Se "
+"eliminarán todos los siguientes elementos relacionados:"
+
+#: templates/admin/edit_inline/stacked.html:26
+#: templates/admin/widgets/related_widget_wrapper.html:12
+msgid "Change"
+msgstr "Cambiar"
+
+#: templates/admin/edit_inline/stacked.html:28
+msgid "View"
+msgstr "Ver"
+
+#: templates/admin/edit_inline/tabular.html:25
+msgid "Delete?"
+msgstr "¿Eliminar?"
+
+#: templates/admin/filter.html:3 templates/admin/filter.html:4
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " Por %(filter_title)s "
+
+#: templates/admin/object_history.html:18
+msgid "Date/time"
+msgstr "Fecha/hora"
+
+#: templates/admin/object_history.html:19
+msgid "User"
+msgstr "Usuario"
+
+#: templates/admin/object_history.html:20
+msgid "Action"
+msgstr "Acción"
+
+#: templates/admin/object_history.html:37
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+"Este objeto no tiene un historial de cambios. Probablemente no se agregó a "
+"través de este sitio de administración."
+
+#: templates/admin/pagination.html:14 templates/admin/search_form.html:23
+msgid "Show all"
+msgstr "Mostrar todo"
+
+#: templates/admin/search_form.html:14
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/admin/search_form.html:18
+#, python-format
+msgid ""
+"%(counter)s\n"
+"        result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+"%(counter)s\n"
+"        resultado"
+msgstr[1] "%(counter)s resultados"
+
+#: templates/admin/search_form.html:22
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "%(full_result_count)s total"
+
+#: templates/admin/submit_line.html:7
+msgid "All actions"
+msgstr "Todas las acciones"
+
+#: templates/admin/widgets/clearable_file_input.html:6
+msgid "File"
+msgstr "Archivo"
+
+#: templates/admin/widgets/clearable_file_input.html:23
+msgid "Download"
+msgstr "Descarga"
+
+#: templates/admin/widgets/clearable_file_input.html:31
+msgid "Cached"
+msgstr "Cacheado"
+
+#: templates/admin/widgets/clearable_file_input.html:33
+msgid "Clear cache"
+msgstr "Limpiar caché"
+
+#: templates/admin/widgets/related_widget_wrapper.html:11
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "Cambiar seleccionado %(model)s"
+
+#: templates/admin/widgets/related_widget_wrapper.html:18
+#, python-format
+msgid "Add another %(model)s"
+msgstr "Agregar otro %(model)s"
+
+#: templates/admin/widgets/related_widget_wrapper.html:19
+msgid "Add"
+msgstr "Agregar"
+
+#: templates/admin/widgets/related_widget_wrapper.html:25
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "Eliminar seleccionado %(model)s"
+
+#: templates/admin/widgets/url.html:6
+msgid "Link"
+msgstr "Enlace"
+
+#: templates/material/admin/includes/app_content.html:40
+#: templates/material/admin/side_nav.html:55
+msgid "You don't have permission to view or edit anything."
+msgstr "No tienes permiso para ver o editar nada."
+
+#: templates/material/admin/login.html:47
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+"Está autenticado como %(username)s, pero no está autorizado para acceder a "
+"esta página. ¿Desea iniciar sesión en una cuenta diferente?"
+
+#: templates/material/admin/login.html:90
+msgid "Forgotten your password or username?"
+msgstr "¿Olvidó su contraseña o nombre de usuario?"
+
+#: templates/material/admin/login.html:94
+#: templates/registration/password_reset_complete.html:27
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: templates/material/admin/logout.html:26
+msgid "Logged out"
+msgstr "Cerró sesión"
+
+#: templates/material/admin/logout.html:27
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Gracias por pasar un tiempo de calidad con el sitio Web hoy."
+
+#: templates/material/admin/logout.html:28
+msgid "Log in again"
+msgstr "Iniciar sesión de nuevo"
+
+#: templates/material/admin/password_change.html:24
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Introduzca su contraseña antigua, por seguridad, y después introduzca su "
+"nueva contraseña dos veces para verificar que la escribió correctamente."
+
+#: templates/material/admin/password_change.html:26
+msgid "Old password"
+msgstr "Contraseña anterior"
+
+#: templates/material/admin/password_change.html:33
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: templates/material/admin/password_change.html:41
+msgid "New password confirmation"
+msgstr "Nueva confirmación de contraseña"
+
+#: templates/material/admin/password_change.html:51
+#: templates/registration/password_reset_confirm.html:37
+msgid "Change my password"
+msgstr "Cambiar mi contraseña"
+
+#: templates/material/admin/tray.html:4
+msgid "Side Navigation"
+msgstr "Navegación lateral"
+
+#: templates/material/admin/tray.html:8
+msgid "Additional submit line"
+msgstr "Línea de envío adicional"
+
+#: templates/material/admin/tray.html:12
+msgid "Object tools"
+msgstr "Herramientas de objetos"
+
+#: templates/material/admin/widgets/date.html:8
+#: templates/material/admin/widgets/split_datetime.html:5
+msgid "Calendar"
+msgstr "Calendario"
+
+#: templates/material/admin/widgets/date.html:9
+#: templates/material/admin/widgets/split_datetime.html:6
+msgid "Today"
+msgstr "Hoy"
+
+#: templates/material/admin/widgets/split_datetime.html:9
+#: templates/material/admin/widgets/time.html:7
+msgid "Time"
+msgstr "Hora"
+
+#: templates/material/admin/widgets/split_datetime.html:10
+#: templates/material/admin/widgets/time.html:8
+msgid "Now"
+msgstr "Ahora"
+
+#: templates/registration/password_reset_complete.html:26
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "Se envió su contraseña. Puede proceder e iniciar sesión ahora."
+
+#: templates/registration/password_reset_confirm.html:22
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Introduzca su nueva contraseña dos veces para verificar que la escribió "
+"correctamente."
+
+#: templates/registration/password_reset_confirm.html:29
+msgid "New password:"
+msgstr "Nueva contraseña:"
+
+#: templates/registration/password_reset_confirm.html:34
+msgid "Confirm password:"
+msgstr "Confirmar contraseña:"
+
+#: templates/registration/password_reset_confirm.html:48
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"El enlace para restablecer la contraseña no es válido, posiblemente porque "
+"ya se haya usado. Por favor, solicite de nuevo restablecer su contraseña."
+
+#: templates/registration/password_reset_done.html:25
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Le enviamos instrucciones por correo electrónico para configurar su "
+"contraseña, si existe una cuenta con el correo electrónico que ingresó. "
+"Deberías recibirlos en breve."
+
+#: templates/registration/password_reset_done.html:26
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Si no recibe un correo electrónico, asegúrese de haber ingresado la "
+"dirección con la que se registró y revise su carpeta de correo no deseado."
+
+#: templates/registration/password_reset_done.html:30
+msgid "Login"
+msgstr "Inicio de sesión"
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"Recibió este correo electrónico porque solicitó un restablecimiento de "
+"contraseña para su cuenta de usuario en %(site_name)s."
+
+#: templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Vaya a la siguiente página y elija una nueva contraseña:"
+
+#: templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr "Su nombre de usuario, en caso de que haya olvidado:"
+
+#: templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr "¡Gracias por usar nuestro sitio!"
+
+#: templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "El equipo %(site_name)s"
+
+#: templates/registration/password_reset_form.html:22
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"¿Ha olvidado su contraseña? Escriba debajo su dirección de correo "
+"electrónico y se le enviarán instrucciones por correo electrónico para "
+"obtener una nueva."
+
+#: templates/registration/password_reset_form.html:29
+msgid "Email address:"
+msgstr "Dirección de correo electrónico:"
+
+#: templates/registration/password_reset_form.html:33
+msgid "Reset my password"
+msgstr "Restablecer mi contraseña"
+
+#: views.py:9
+msgid "Theme selection"
+msgstr "Selección de tema"
+
+#: views.py:11 views.py:51
+msgid "Default"
+msgstr "Defecto"
+
+#: views.py:12
+msgid "Night"
+msgstr "Noche"
+
+#: views.py:13
+msgid "Black"
+msgstr "Negra"
+
+#: views.py:14
+msgid "Red"
+msgstr "Roja"
+
+#: views.py:15
+msgid "Green"
+msgstr "Verde"
+
+#: views.py:40
+msgid "The \"{}\" theme was saved successfully."
+msgstr "El tema \"{}\" se guardó correctamente."

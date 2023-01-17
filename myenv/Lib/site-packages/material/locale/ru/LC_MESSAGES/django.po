@@ -1,0 +1,755 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR it2015maistrenko@gmail.com, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 07:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME it2015maistrenko@gmail.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: templates/400.html:4 templates/403.html:4 templates/403.html:28
+#: templates/404.html:4 templates/404.html:28 templates/500.html:4
+msgid "Page not found"
+msgstr ""
+
+#: templates/400.html:28
+msgid "Bad request"
+msgstr ""
+
+#: templates/403.html:29
+msgid "You have no permissions to do this action."
+msgstr ""
+
+#: templates/404.html:29
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: templates/500.html:28
+msgid "Server error"
+msgstr ""
+
+#: templates/500.html:29
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: templates/admin/actions.html:30
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: templates/admin/actions.html:30
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr ""
+
+#: templates/admin/actions.html:32
+msgid "Clear selection"
+msgstr ""
+
+#: templates/admin/actions.html:39
+msgid "Run the selected action"
+msgstr ""
+
+#: templates/admin/actions.html:39
+msgid "Go"
+msgstr ""
+
+#: templates/admin/add_form.html:9
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+
+#: templates/admin/add_form.html:11
+msgid "Enter a username and password."
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:9
+#: templates/admin/submit_line.html:13
+msgid "Save as new"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:17
+#: templates/admin/submit_line.html:29
+msgid "Save and add another"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:25
+#: templates/admin/submit_line.html:42
+msgid "Save and continue editing"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:25
+#: templates/admin/submit_line.html:42
+msgid "Save and view"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:36
+#: templates/admin/submit_line.html:49 templates/admin/submit_line.html:51
+#: templates/admin/submit_line.html:60
+msgid "Close"
+msgstr "Закрыть"
+
+#: templates/admin/additional_submit_line.html:41
+#: templates/admin/pagination.html:16 templates/admin/submit_line.html:21
+#: templates/admin/submit_line.html:73
+#: templates/material/admin/theme_change.html:39
+msgid "Save"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:48
+#: templates/admin/edit_inline/stacked.html:59
+#: templates/admin/submit_line.html:62 templates/admin/submit_line.html:81
+#: templates/admin/widgets/related_widget_wrapper.html:26
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/additional_submit_line.html:52
+#: templates/admin/change_form.html:68 templates/material/admin/side_nav.html:5
+msgid "Minimize"
+msgstr "Свернуть"
+
+#: templates/admin/base.html:61 templates/material/admin/index.html:12
+msgid "Home"
+msgstr ""
+
+#: templates/admin/base_site.html:67
+msgid "View site"
+msgstr ""
+
+#: templates/admin/base_site.html:70
+msgid "Themes"
+msgstr "Темы"
+
+#: templates/admin/base_site.html:75
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/base_site.html:80
+msgid "Change password"
+msgstr ""
+
+#: templates/admin/base_site.html:84
+msgid "Log out"
+msgstr ""
+
+#: templates/admin/base_site.html:109 templates/admin/base_site.html:174
+msgid "Cancel"
+msgstr "Отменить"
+
+#: templates/admin/base_site.html:110 templates/admin/base_site.html:175
+msgid "Clear"
+msgstr ""
+
+#: templates/admin/base_site.html:111 templates/admin/base_site.html:176
+msgid "Ok"
+msgstr ""
+
+#: templates/admin/base_site.html:113
+msgid "January"
+msgstr "Январь"
+
+#: templates/admin/base_site.html:114
+msgid "February"
+msgstr "Февраль"
+
+#: templates/admin/base_site.html:115
+msgid "March"
+msgstr "Март"
+
+#: templates/admin/base_site.html:116
+msgid "April"
+msgstr "Апрель"
+
+#: templates/admin/base_site.html:117 templates/admin/base_site.html:131
+msgid "May"
+msgstr "Май"
+
+#: templates/admin/base_site.html:118
+msgid "June"
+msgstr "Июнь"
+
+#: templates/admin/base_site.html:119
+msgid "July"
+msgstr "Июль"
+
+#: templates/admin/base_site.html:120
+msgid "August"
+msgstr "Август"
+
+#: templates/admin/base_site.html:121
+msgid "September"
+msgstr "Сентябрь"
+
+#: templates/admin/base_site.html:122
+msgid "October"
+msgstr "Октябрь"
+
+#: templates/admin/base_site.html:123
+msgid "November"
+msgstr "Ноябрь"
+
+#: templates/admin/base_site.html:124
+msgid "December"
+msgstr "Декабрь"
+
+#: templates/admin/base_site.html:127
+msgid "Jan"
+msgstr "Янв"
+
+#: templates/admin/base_site.html:128
+msgid "Feb"
+msgstr "Фев"
+
+#: templates/admin/base_site.html:129
+msgid "Mar"
+msgstr "Март"
+
+#: templates/admin/base_site.html:130
+msgid "Apr"
+msgstr "Апр"
+
+#: templates/admin/base_site.html:132
+msgid "Jun"
+msgstr "Июнь"
+
+#: templates/admin/base_site.html:133
+msgid "Jul"
+msgstr "Июль"
+
+#: templates/admin/base_site.html:134
+msgid "Aug"
+msgstr "Авг"
+
+#: templates/admin/base_site.html:135
+msgid "Sep"
+msgstr "Сент"
+
+#: templates/admin/base_site.html:136
+msgid "Oct"
+msgstr "Окт"
+
+#: templates/admin/base_site.html:137
+msgid "Nov"
+msgstr "Ноя"
+
+#: templates/admin/base_site.html:138
+msgid "Dec"
+msgstr "Дек"
+
+#: templates/admin/base_site.html:141
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: templates/admin/base_site.html:142
+msgid "Monday"
+msgstr "Понедельник"
+
+#: templates/admin/base_site.html:143
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: templates/admin/base_site.html:144
+msgid "Wednesday"
+msgstr "Среда"
+
+#: templates/admin/base_site.html:145
+msgid "Thursday"
+msgstr "Четверг"
+
+#: templates/admin/base_site.html:146
+msgid "Friday"
+msgstr "Пятница"
+
+#: templates/admin/base_site.html:147
+msgid "Saturday"
+msgstr "Суббота"
+
+#: templates/admin/base_site.html:150
+msgid "Sun"
+msgstr "Вскр"
+
+#: templates/admin/base_site.html:151
+msgid "Mon"
+msgstr "Пон"
+
+#: templates/admin/base_site.html:152
+msgid "Tue"
+msgstr "Вт"
+
+#: templates/admin/base_site.html:153
+msgid "Wed"
+msgstr "Ср"
+
+#: templates/admin/base_site.html:154
+msgid "Thu"
+msgstr "Чт"
+
+#: templates/admin/base_site.html:155
+msgid "Fri"
+msgstr "Пт"
+
+#: templates/admin/base_site.html:156
+msgid "Sat"
+msgstr "Суб"
+
+#: templates/admin/base_site.html:159
+msgid "Su"
+msgstr "Вс"
+
+#: templates/admin/base_site.html:160
+msgid "Mo"
+msgstr "Пн"
+
+#: templates/admin/base_site.html:161
+msgid "Tu"
+msgstr "Вт"
+
+#: templates/admin/base_site.html:162
+msgid "We"
+msgstr "Ср"
+
+#: templates/admin/base_site.html:163
+msgid "Th"
+msgstr "Чт"
+
+#: templates/admin/base_site.html:164
+msgid "Fr"
+msgstr "Пт"
+
+#: templates/admin/base_site.html:165
+msgid "Sa"
+msgstr "Сб"
+
+#: templates/admin/change_form.html:27 templates/admin/change_list.html:30
+#: templates/material/admin/login.html:31
+#: templates/material/admin/password_change.html:16
+#: templates/material/admin/theme_change.html:21
+msgid "Please correct the error below."
+msgstr ""
+
+#: templates/admin/change_form.html:27 templates/admin/change_list.html:30
+#: templates/material/admin/login.html:33
+#: templates/material/admin/password_change.html:18
+#: templates/material/admin/theme_change.html:23
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/admin/change_form.html:71
+msgid "Tools"
+msgstr "Инструменты"
+
+#: templates/admin/change_form_object_tools.html:7
+msgid "History"
+msgstr ""
+
+#: templates/admin/change_form_object_tools.html:14
+#: templates/admin/edit_inline/stacked.html:38
+#: templates/admin/edit_inline/tabular.html:56
+msgid "View on site"
+msgstr ""
+
+#: templates/admin/change_list.html:61
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/change_list_results.html:18
+msgid "Remove from sorting"
+msgstr ""
+
+#: templates/admin/change_list_results.html:19
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: templates/admin/change_list_results.html:20
+msgid "Toggle sorting"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:12
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:21
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:30
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:33
+#: templates/admin/delete_selected_confirmation.html:27
+msgid "Objects"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:41
+#: templates/admin/delete_selected_confirmation.html:39
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:45
+#: templates/admin/delete_selected_confirmation.html:43
+msgid "No, take me back"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:11
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:25
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: templates/admin/edit_inline/stacked.html:26
+#: templates/admin/widgets/related_widget_wrapper.html:12
+msgid "Change"
+msgstr ""
+
+#: templates/admin/edit_inline/stacked.html:28
+msgid "View"
+msgstr ""
+
+#: templates/admin/edit_inline/tabular.html:25
+msgid "Delete?"
+msgstr ""
+
+#: templates/admin/filter.html:3 templates/admin/filter.html:4
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: templates/admin/object_history.html:18
+msgid "Date/time"
+msgstr ""
+
+#: templates/admin/object_history.html:19
+msgid "User"
+msgstr ""
+
+#: templates/admin/object_history.html:20
+msgid "Action"
+msgstr ""
+
+#: templates/admin/object_history.html:37
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: templates/admin/pagination.html:14 templates/admin/search_form.html:23
+msgid "Show all"
+msgstr ""
+
+#: templates/admin/search_form.html:14
+#, fuzzy
+#| msgid "March"
+msgid "Search"
+msgstr "Март"
+
+#: templates/admin/search_form.html:18
+#, python-format
+msgid ""
+"%(counter)s\n"
+"        result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/search_form.html:22
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: templates/admin/submit_line.html:7
+msgid "All actions"
+msgstr "Все действия"
+
+#: templates/admin/widgets/clearable_file_input.html:6
+msgid "File"
+msgstr "Файл"
+
+#: templates/admin/widgets/clearable_file_input.html:23
+msgid "Download"
+msgstr ""
+
+#: templates/admin/widgets/clearable_file_input.html:31
+msgid "Cached"
+msgstr ""
+
+#: templates/admin/widgets/clearable_file_input.html:33
+msgid "Clear cache"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:11
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:18
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:19
+msgid "Add"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:25
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/url.html:6
+msgid "Link"
+msgstr ""
+
+#: templates/material/admin/includes/app_content.html:40
+#: templates/material/admin/side_nav.html:55
+msgid "You don't have permission to view or edit anything."
+msgstr ""
+
+#: templates/material/admin/login.html:47
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+
+#: templates/material/admin/login.html:90
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: templates/material/admin/login.html:94
+#: templates/registration/password_reset_complete.html:27
+msgid "Log in"
+msgstr ""
+
+#: templates/material/admin/logout.html:26
+msgid "Logged out"
+msgstr ""
+
+#: templates/material/admin/logout.html:27
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: templates/material/admin/logout.html:28
+msgid "Log in again"
+msgstr ""
+
+#: templates/material/admin/password_change.html:24
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: templates/material/admin/password_change.html:26
+msgid "Old password"
+msgstr ""
+
+#: templates/material/admin/password_change.html:33
+msgid "New password"
+msgstr ""
+
+#: templates/material/admin/password_change.html:41
+msgid "New password confirmation"
+msgstr ""
+
+#: templates/material/admin/password_change.html:51
+#: templates/registration/password_reset_confirm.html:37
+msgid "Change my password"
+msgstr ""
+
+#: templates/material/admin/tray.html:4
+msgid "Side Navigation"
+msgstr "Навигация"
+
+#: templates/material/admin/tray.html:8
+msgid "Additional submit line"
+msgstr "Дополнительная строка отправки"
+
+#: templates/material/admin/tray.html:12
+msgid "Object tools"
+msgstr "Инструменты"
+
+#: templates/material/admin/widgets/date.html:8
+#: templates/material/admin/widgets/split_datetime.html:5
+msgid "Calendar"
+msgstr "Кадендарь"
+
+#: templates/material/admin/widgets/date.html:9
+#: templates/material/admin/widgets/split_datetime.html:6
+msgid "Today"
+msgstr ""
+
+#: templates/material/admin/widgets/split_datetime.html:9
+#: templates/material/admin/widgets/time.html:7
+msgid "Time"
+msgstr ""
+
+#: templates/material/admin/widgets/split_datetime.html:10
+#: templates/material/admin/widgets/time.html:8
+msgid "Now"
+msgstr "Сейчас"
+
+#: templates/registration/password_reset_complete.html:26
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:22
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:29
+msgid "New password:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:34
+msgid "Confirm password:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:48
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:25
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:26
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:30
+msgid "Login"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:22
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: templates/registration/password_reset_form.html:29
+msgid "Email address:"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:33
+msgid "Reset my password"
+msgstr ""
+
+#: views.py:9
+msgid "Theme selection"
+msgstr "Выбор темы"
+
+#: views.py:11 views.py:51
+msgid "Default"
+msgstr "Умолчание"
+
+#: views.py:12
+msgid "Night"
+msgstr "Ночь"
+
+#: views.py:13
+msgid "Black"
+msgstr "Черная"
+
+#: views.py:14
+msgid "Red"
+msgstr "Красная"
+
+#: views.py:15
+msgid "Green"
+msgstr "Зеленая"
+
+#: views.py:40
+msgid "The \"{}\" theme was saved successfully."
+msgstr "Тема \"{}\" сохранена."
+
+#~ msgid "Search groups"
+#~ msgstr "Поиск групп"
+
+#~ msgid "M"
+#~ msgstr "П"
+
+#~ msgid "T"
+#~ msgstr "В"
+
+#~ msgid "W"
+#~ msgstr "С"
+
+#~ msgid "F"
+#~ msgstr "Ч"
+
+#~ msgid "S"
+#~ msgstr "В"

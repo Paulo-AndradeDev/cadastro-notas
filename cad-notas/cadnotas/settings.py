@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from .jazzmin import JAZZMIN_SETTINGS
 import os
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -34,10 +35,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 
-    # Jazzmin template
-    'jazzmin',
+    # Django Material Admin template
+    'material',
+    'material.admin',
 
-    "django.contrib.admin",
+    # Jazzmin template
+    #'jazzmin',
+    #"django.contrib.admin",
+
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
@@ -51,6 +56,30 @@ INSTALLED_APPS = [
     # Rich Text Field Editor
     'ckeditor',
 ]
+
+
+MATERIAL_ADMIN_SITE = {
+    #'HEADER':  _('Your site header'),  # Admin site header
+    #'TITLE':  _('Your site title'),  # Admin site title
+    'FAVICON':  'currency_exchange.png',  # Admin site favicon (path to static should be specified)
+    'MAIN_BG_COLOR':  'color',  # Admin site main color, css color should be specified
+    'MAIN_HOVER_COLOR':  'color',  # Admin site main hover color, css color should be specified
+    'PROFILE_PICTURE':  'currency_exchange.png',  # Admin site profile picture (path to static should be specified)
+    # 'PROFILE_BG':  'path/to/image',  # Admin site profile background (path to static should be specified)
+    # 'LOGIN_LOGO':  'path/to/image',  # Admin site logo on login page (path to static should be specified)
+    # 'LOGOUT_BG':  'path/to/image',  # Admin site background on login/logout pages (path to static should be specified)
+    'SHOW_THEMES':  True,  #  Show default admin themes button
+    'TRAY_REVERSE': True,  # Hide object-tools and additional-submit-line by default
+    'NAVBAR_REVERSE': True,  # Hide side navbar by default
+    'SHOW_COUNTS': True, # Show instances counts for each model
+    'APP_ICONS': {  # Set icons for applications(lowercase), including 3rd party apps, {'application_name': 'material_icon_name', ...}
+        'sites': 'send',
+    },
+    'MODEL_ICONS': {  # Set icons for models(lowercase), including 3rd party models, {'model_name': 'material_icon_name', ...}
+        'site': 'contact_mail',
+    }
+}
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

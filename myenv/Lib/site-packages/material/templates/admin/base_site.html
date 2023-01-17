@@ -1,0 +1,190 @@
+{% extends "admin/base_site.html" %}
+{% load static i18n material %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'material/admin/css/materialize.min.css' %}">
+    <link href="{% static 'material/admin/css/material_icons.min.css' %}" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url('{% static 'material/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2' %}') format('woff2');
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/autocomplete.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/app_content.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/side_nav.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/header.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/tray.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/tray-responsive.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/selector_relative.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/selector_relative-responsive.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site-responsive.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/clearable_file_input.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/jquery.jscrollpane.min.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="{% static 'material/admin/js/jquery.min.js' %}"></script>
+    {% if favicon %}
+        <link rel="icon" href="{{ favicon }}" />
+    {% endif %}
+    {% block theme %}
+        {% if current_theme and current_theme != 'default' %}
+            <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site-'|add:current_theme|add:'.min.css' %}">
+            {% if current_theme != 'night' %}
+                <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site-theme.min.css' %}">
+            {% endif %}
+        {% elif main_bg_color and main_hover_color %}
+            <style>
+                :root {
+                  --main-bg-color: {{ main_bg_color }};
+                  --main-hover-color: {{ main_hover_color }};
+                }
+            </style>
+            <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site-theme.min.css' %}">
+        {% endif %}
+    {% endblock %}
+{% endblock %}
+
+{% block branding %}
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <h1 id="site-name">
+                <a href="{% url 'admin:index' %}">
+                    <strong>
+                        {{ site_header }}
+                    </strong>
+                </a>
+            </h1>
+        </div>
+    </nav>
+{% endblock %}
+
+{% block userlinks %}
+    {% block welcome-msg %}{% endblock %}
+    {% if site_url %}
+        <a href="{{ site_url }}">{% trans 'View site' %}</a>
+    {% endif %}
+        {% if show_themes %}
+            <a href="{% url 'admin:themes' %}">{% trans 'Themes' %}</a>
+        {% endif %}
+    {% if user.is_active and user.is_staff %}
+        {% url 'django-admindocs-docroot' as docsroot %}
+        {% if docsroot %}
+            <a href="{{ docsroot }}">{% trans 'Documentation' %}</a>
+        {% endif %}
+    {% endif %}
+    {% if user.has_usable_password %}
+        <a href="{% url 'admin:password_change' %}">
+            {% trans 'Change password' %}
+        </a>
+    {% endif %}
+    <a href="{% url 'admin:logout' %}">
+        {% trans 'Log out' %}
+        <i class="material-icons" aria-hidden="true">exit_to_app</i>
+    </a>
+{% endblock %}
+
+{% block side_nav %}
+    {% if not is_popup %}
+    {% if not nav_bar_minimized %}
+        <div id="side-bar" class="hide-on-med-and-down">
+            {% include 'material/admin/side_nav.html' with available_apps=available_apps app=app %}
+        </div>
+    {% endif %}
+    <div id="mobile-demo" class="sidenav">
+        {% include 'material/admin/side_nav.html' with available_apps=available_apps app=app mobile=True %}
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block footer %}
+    <script>
+        var datepickerOptions = {
+            autoClose: true,
+            defaultDate: true,
+            showClearBtn: true,
+            i18n: {
+                cancel: '{% trans 'Cancel' %}',
+                clear: '{% trans 'Clear' %}',
+                done: '{% trans 'Ok' %}',
+                months: [
+                    '{% trans 'January' %}',
+                    '{% trans 'February' %}',
+                    '{% trans 'March' %}',
+                    '{% trans 'April' %}',
+                    '{% trans 'May' %}',
+                    '{% trans 'June' %}',
+                    '{% trans 'July' %}',
+                    '{% trans 'August' %}',
+                    '{% trans 'September' %}',
+                    '{% trans 'October' %}',
+                    '{% trans 'November' %}',
+                    '{% trans 'December' %}',
+                ],
+                monthsShort: [
+                    '{% trans 'Jan' %}',
+                    '{% trans 'Feb' %}',
+                    '{% trans 'Mar' %}',
+                    '{% trans 'Apr' %}',
+                    '{% trans 'May' %}',
+                    '{% trans 'Jun' %}',
+                    '{% trans 'Jul' %}',
+                    '{% trans 'Aug' %}',
+                    '{% trans 'Sep' %}',
+                    '{% trans 'Oct' %}',
+                    '{% trans 'Nov' %}',
+                    '{% trans 'Dec' %}',
+                ],
+                weekdays: [
+                   '{% trans 'Sunday' %}',
+                   '{% trans 'Monday' %}',
+                   '{% trans 'Tuesday' %}',
+                   '{% trans 'Wednesday' %}',
+                   '{% trans 'Thursday' %}',
+                   '{% trans 'Friday' %}',
+                   '{% trans 'Saturday' %}',
+                ],
+                weekdaysShort: [
+                    '{% trans 'Sun' %}',
+                    '{% trans 'Mon' %}',
+                    '{% trans 'Tue' %}',
+                    '{% trans 'Wed' %}',
+                    '{% trans 'Thu' %}',
+                    '{% trans 'Fri' %}',
+                    '{% trans 'Sat' %}',
+                ],
+                weekdaysAbbrev:	[
+                    '{% trans 'Su' %}',
+                    '{% trans 'Mo' %}',
+                    '{% trans 'Tu' %}',
+                    '{% trans 'We' %}',
+                    '{% trans 'Th' %}',
+                    '{% trans 'Fr' %}',
+                    '{% trans 'Sa' %}',
+                ]
+            }
+        };
+        var timeOptions = {
+            twelveHour: false,
+            autoClose: true,
+            showClearBtn: true,
+            i18n: {
+                cancel: '{% trans 'Cancel' %}',
+                clear: '{% trans 'Clear' %}',
+                done: '{% trans 'Ok' %}',
+            }
+        };
+
+    </script>
+
+    <script src="{% static 'material/admin/js/materialize.min.js' %}"></script>
+    <script src="{% static 'material/admin/js/materialize-init.min.js' %}"></script>
+    <script src="{% static 'material/admin/js/admin.js' %}"></script>
+    <script src="{% static 'material/admin/js/filters.js' %}"></script>
+    <script src="{% static 'material/admin/js/tray.js' %}"></script>
+    <script type="text/javascript" src="{% static 'material/admin/js/jquery.mousewheel.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'material/admin/js/jquery.jscrollpane.min.js' %}"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js'></script>
+{% endblock %}

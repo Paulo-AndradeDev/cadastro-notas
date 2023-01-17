@@ -1,0 +1,32 @@
+{% extends "admin/base_site.html" %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Page not found' %}{% endblock %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  {% block theme %}
+    {% include 'material/admin/includes/admin-out-themes.html' %}
+  {% endblock %}
+  <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/layout.min.css' %}">
+{% endblock %}
+
+{% block branding %}{% endblock %}
+{% block inside_container %}{% endblock %}
+{% block tray %}{% endblock %}
+{% block breadcrumbs %}{% endblock %}
+{% block side_nav %}{% endblock %}
+
+
+{% block content %}
+  <div id="layout-content">
+    <div class="side-bar">
+      {% include 'material/admin/includes/admin-out-bg.html' with current_theme=current_theme %}
+    </div>
+    <div class="text-content">
+      <h2>500</h2>
+      <h3>{% trans 'Server error' %}</h3>
+      <p>{% trans "There's been an error. It's been reported to the site administrators via email and should be fixed shortly. Thanks for your patience." %}</p>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,60 @@
+{% load i18n material %}
+
+<div class="scroll-pane">
+    {% if not mobile %}
+        <i class="material-icons minimize nav-bar" aria-hidden="true" title="{% trans 'Minimize' %}">close</i>
+    {% endif %}
+    {% if available_apps %}
+        <ul class="collapsible">
+            <li>
+                <div class="card">
+                    <div class="card-image">
+                        {% if 'profile/user_picture.html'|template_exists %}
+                          {% include 'profile/user_picture.html' %}
+                        {% else %}
+                          {% include 'material/admin/user_picture.html' %}
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+            {% for app in available_apps %}
+            <li class="scrollspy">
+                <div class="collapsible-header">
+                    <i class="material-icons" aria-hidden="true">{% if app.icon %}{{ app.icon }}{% else %}settings{% endif %}</i>
+                    {{ app.name }}
+                </div>
+                <div class="collapsible-body">
+                    {% for model in app.models %}
+                        {% if model.admin_url %}
+                            <div {% if model.admin_url in request.path %}class="active"{% endif %}>
+                                <a href="{{ model.admin_url }}">
+                                    {% if model.count != None %}
+                                        <span class="badge">
+                                            {{ model.count }}
+                                        </span>
+                                    {% endif %}
+                                    {{ model.name }}
+                                </a>
+                            </div>
+                        {% else %}
+                            <div class="disabled">{{ model.name }}
+                                {% if model.count != None %}
+                                    <span class="badge">{{ model.count }}</span>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+    <div class="app">
+        <div class="card">
+            <div class="card-content">
+                <p>{% trans "You don't have permission to view or edit anything." %}</>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>

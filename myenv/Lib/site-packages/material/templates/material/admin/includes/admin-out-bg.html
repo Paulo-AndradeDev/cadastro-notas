@@ -1,0 +1,30 @@
+{% load static %}
+
+{% if current_theme %}
+  {% if error %}
+    <img src="{% static 'material/images/error.jpg' %}" alt="">
+  {% else %}
+    {% if login_logo %}
+      <img src="{{ login_logo }}" alt="Logo">
+    {% else %}
+      <img src="{% static 'material/admin/images/login-logo-'|add:current_theme|add:'.jpg' %}" alt="Logo">
+    {% endif %}
+  {% endif %}
+  <style>
+    {% if logout_bg %}
+      .side-bar {background-image: url({{ logout_bg }})
+    {% else %}
+      .side-bar {background-image: url('{% static 'material/admin/images/login-bg-'|add:current_theme|add:'.jpg' %}'); }
+    {% endif %}
+  </style>
+{% else %}
+  {% if error %}
+    <img src="{% static 'material/images/error.jpg' %}" alt="">
+  {% else %}
+    {% if login_logo %}
+      <img src="{{ login_logo }}" alt="Logo">
+    {% else %}
+      <img src="{% static 'material/admin/images/login-logo.jpg' %}" alt="">
+    {% endif %}
+  {% endif %}
+{% endif %}

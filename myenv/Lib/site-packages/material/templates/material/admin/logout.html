@@ -1,0 +1,34 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  {% block theme %}
+    {% include 'material/admin/includes/admin-out-themes.html' %}
+  {% endblock %}
+  <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/layout.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/logout.min.css' %}">
+{% endblock %}
+
+{% block branding %}{% endblock %}
+{% block inside_container %}{% endblock %}
+{% block tray %}{% endblock %}
+{% block breadcrumbs %}{% endblock %}
+{% block side_nav %}{% endblock %}
+
+{% block content %}
+
+<div id="layout-content">
+  <div class="side-bar">
+    {% include 'material/admin/includes/admin-out-bg.html' with current_theme=current_theme %}
+  </div>
+  <div class="text-content">
+    <h2>{% trans "Logged out" %}</h2>
+    <p>{% trans "Thanks for spending some quality time with the Web site today." %}</p>
+    <p><a class="btn waves-effect white-text waves-light" href="{% url 'admin:index' %}">{% trans 'Log in again' %}
+      <i class="material-icons right" aria-hidden="true">send</i>
+    </a></p>
+  </div>
+</div>
+
+{% endblock %}
