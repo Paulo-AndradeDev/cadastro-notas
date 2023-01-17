@@ -21,7 +21,11 @@
       > pip install -r requirements.txt
 
 5. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
-
+   
+      > python manage.py makemigrations
+      
+      > python manage.py migrate
+      
       > python manage.py runserver
    
    
@@ -89,5 +93,9 @@ Para criar um executável:
    > pyinstaller --onfile --noconsole cadnotas.py
    
    
+ # DBA (Administrador de Banco de Dados)
  
+ Download o aplicativo DB Broser para SQLite para te ajudar a visualizar seus dados
+ 
+ Faça um backup do arquivo db.sql3 (esse é o seu banco de dados)
 
