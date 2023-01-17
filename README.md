@@ -85,12 +85,15 @@ Esse robô executa a aplicação depois de instalada. Ou seja, na primeira execu
 
 O código do robô está no arquivo cadnotas.py.
  
-Entretanto, o robô está configurado com os arquivos do projeto em C:/cad-notas. Se o seu caminho for difenrente, altere a linha 10 do arquivo cadnotas.py e crie outro executável. 
+Entretanto, o robô está configurado com os arquivos do projeto em:
+   > C:\cad-notas\cadastro-notas\cad-notas 
+  
+ Se o seu caminho for difenrente, altere a linha 10 do arquivo cadnotas.py e crie outro executável. 
 
 Para criar um executável:
    > pip install pyinstaller
    
-   > pyinstaller --onfile --noconsole cadnotas.py
+   > pyinstaller --onefile --noconsole cadnotas.py
    
    
  # DBA (Administrador de Banco de Dados)
