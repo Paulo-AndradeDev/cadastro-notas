@@ -7,7 +7,7 @@ pyautogui.write('cmd')
 pyautogui.press('enter')
 pyautogui.PAUSE = 1.5
 
-pyautogui.write('cd cad-notas')
+pyautogui.write('cd C:\cad-notas\cadastro-notas\cad-notas')
 pyautogui.press('enter')
 
 
