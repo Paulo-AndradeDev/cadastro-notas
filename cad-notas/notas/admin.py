@@ -29,11 +29,12 @@ class NotasAdmin(admin.ModelAdmin,ExportCsvMixin):
     icon_name = 'format_list_numbered'
 
     date_hierarchy = 'data'
-    list_display = ("cliente","nota","lancado","data")
+    list_display = ("cliente","nota","lancado","data","valor",)
+    fields = ("cliente","nota","lancado","data","valor")
     list_filter = ("cliente", "nota", "lancado", "data")
-    search_fields = ("nota","data")
+    search_fields = ("nota","data","valor")
     raw_id_fields = ("cliente",)
-    ordering = ("data","nota","cliente",)
+    ordering = ("data","nota","cliente","valor")
 
 
 
