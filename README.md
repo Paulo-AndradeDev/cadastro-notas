@@ -90,7 +90,8 @@ Entretanto, o robô está configurado com os arquivos do projeto em:
   
  Se o seu caminho for difenrente, altere a linha 10 do arquivo cadnotas.py e crie outro executável. 
 
-Para criar o seu um executável:
+Para criar o seu executável:
+
    > pip install pyinstaller
    
    > pyinstaller --onefile --noconsole cadnotas.py
