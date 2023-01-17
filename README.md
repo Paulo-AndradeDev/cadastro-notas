@@ -1,5 +1,7 @@
 # cadastro-notas
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/x1gyLl1QdM4)
+
 ## Como rodar em localhost:
 
 1. Instale o Python 3.7 ou superior. 
