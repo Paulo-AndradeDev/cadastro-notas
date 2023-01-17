@@ -1,4 +1,4 @@
-# cadastro-notas
+# Cadastro de Notas
 
 [![Watch the video](https://img.youtube.com/vi/x1gyLl1QdM4/0.jpg)](https://youtu.be/x1gyLl1QdM4)
 
