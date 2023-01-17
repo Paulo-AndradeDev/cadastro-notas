@@ -37,6 +37,27 @@
  
  Jazzmin
    >https://django-jazzmin.readthedocs.io/
+ 
+  ## Temas
+  
+  A aplicação tem 2 temas: jazzmin e Material. Para alternar entre os temas, modifique o arquivo /cadnotas/settings.py da seguinte forma:
+  
+  ### Para o tema Jazzmin:
+  
+  ```python
+      INSTALLED_APPS = [
+
+    # Django Material Admin template
+    # 'material',
+    # 'material.admin',
+
+    # Jazzmin template
+    #'jazzmin',
+    #"django.contrib.admin",
+    ...
+  ```  
+  
+  ### Para o tema Material Admin:
   
   
 # Sobre o Robô
