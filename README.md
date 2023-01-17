@@ -97,5 +97,7 @@ Para criar um executável:
  
  Download o aplicativo DB Broser para SQLite para te ajudar a visualizar seus dados
  
+ https://sqlitebrowser.org/dl/
+ 
  Faça um backup do arquivo db.sql3 (esse é o seu banco de dados)
 
