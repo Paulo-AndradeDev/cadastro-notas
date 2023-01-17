@@ -63,7 +63,7 @@
   
   ### Para o tema Material Admin:
     
-    ```python
+   ```python
       INSTALLED_APPS = [
       
           # Django Material Admin template
