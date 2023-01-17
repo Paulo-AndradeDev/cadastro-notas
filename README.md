@@ -46,18 +46,30 @@
   
   ```python
       INSTALLED_APPS = [
+      
+          # Django Material Admin template
+          # 'material',
+          # 'material.admin',
 
-    # Django Material Admin template
-    # 'material',
-    # 'material.admin',
-
-    # Jazzmin template
-    #'jazzmin',
-    #"django.contrib.admin",
-    ...
-  ```  
+          #  Jazzmin template
+          'jazzmin',
+          "django.contrib.admin",
+   ...
+  
   
   ### Para o tema Material Admin:
+    
+    ```python
+      INSTALLED_APPS = [
+      
+          # Django Material Admin template
+          'material',
+          'material.admin',
+
+          # Jazzmin template
+          #'jazzmin',
+          #"django.contrib.admin",
+   ...
   
   
 # Sobre o Robô
