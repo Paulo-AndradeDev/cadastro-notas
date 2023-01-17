@@ -74,7 +74,7 @@
           #'jazzmin',
           #"django.contrib.admin",
          ...
-    ```
+   ```
   
   
 # Sobre o Robô
