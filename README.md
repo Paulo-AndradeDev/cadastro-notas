@@ -83,7 +83,7 @@ o diretório "dist" contém o arquivo executável de um robô que roda a aplica�
 
 Esse robô executa a aplicação depois de instalada. Ou seja, na primeira execução é preciso seguir os passo acima até o item 5, pois somente depois de instalados os requerimentos o robô funcionará. 
 
-O código do robô está no arquivo cadnotas.py.
+O código do robô está no arquivo robo.py.
  
 Entretanto, o robô está configurado com os arquivos do projeto em:
    > C:\cad-notas\cadastro-notas\cad-notas 
