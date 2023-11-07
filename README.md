@@ -21,18 +21,18 @@
       > pip install -r requirements.txt
 
 5. No terminal, vá até a pasta em que se encontra o arquivo manage.py (mesmo direitório do arquivo requirements.txt supracitado) e rode o seguinte comando:
-   
-      > python manage.py makemigrations
-      
+         
       > python manage.py migrate
       
-      > python manage.py runserver
+     
    
    
 7. Crie um super usuário (rode o camando abaixo e informe login, email e senha)
    > py manage.py createsuperuser
    
-
+8. Inicie o servidor:
+   > python manage.py runserver
+   
 9. Acesse o endereço http://127.0.0.1:8000/admin em seu browser 
 
 
