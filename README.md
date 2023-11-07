@@ -29,9 +29,11 @@
       > python manage.py runserver
    
    
-7. Acesse o endereço http://127.0.0.1:8000/admin em seu browser
+7. Crie um super usuário (rode o camando abaixo e informe login, email e senha)
+   > py manage.py createsuperuser
+   
 
-8. Utilize login 'admin' e senha tb 'admin'
+9. Acesse o endereço http://127.0.0.1:8000/admin em seu browser 
 
 
  ## Pacotes utilizados:
